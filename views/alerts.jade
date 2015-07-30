@@ -1,7 +1,5 @@
 extends layout
-
 block content
-  h1= Alerts
-  ul
-    each val in arrNames
-      li= val
+  select
+    each name, i in arrNames
+      option(value=i) #{name} : #{arrKeyWords[i]}

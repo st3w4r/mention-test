@@ -38,7 +38,7 @@ router.get('/', function(req, res, next) {
 	// req.on('error', function(e) {
 	// 	console.error(e);
 	// });
-	res.render('index', { title: 'Express' });
+	res.render('index', { title: 'Mention' });
 });
 
 module.exports = router;
