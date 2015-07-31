@@ -1,9 +1,9 @@
 # Mention Test
-The project require a App in dev center of [Dev Mention](https://dev.mention.com)
+The project require an App in dev center of [Mention](https://dev.mention.com)
 
 AccessToken of your Mention App is used.
 
-This project use docker.
+Docker is used in this project [Docker](https://www.docker.com/)
 
 ## Build
 
@@ -19,13 +19,13 @@ Or build it, with Dockerfile :
 
 ![Access Token Mention](https://raw.githubusercontent.com/st3w4r/mention-test/resources/Mention_Access_Token.png)
 
-For run the server you need, replace YOUR_TOKEN_API_OF_MENTION by the AccessToken in mention
+For run the server you need replace YOUR_TOKEN_API_OF_MENTION by the Access Token in mention
 
-    docker run -ti -p 80:9001 -e MENTION_TOKEN_ENV="YOUR_TOKEN_API_OF_MENTION" st3w4r/mention-test
+    docker run -d -p 80:9001 -e MENTION_TOKEN_ENV="YOUR_TOKEN_API_OF_MENTION" st3w4r/mention-test
 
 ## Access to website
 
-If you are on Boot2Docker your need find ip with command.
+If you use Boot2Docker your need find your ip with command:
 
     boot2docker ip
 
@@ -33,11 +33,11 @@ Ip of Boot2Docker:
 
     192.168.59.103
 
-Now you can open browser and got to:
+Now you can open a browser and go to:
 
     http://192.168.59.103:80/
 
-Or with Docker native on:
+Or with native Docker on:
 
     http://localhost:80/
 
