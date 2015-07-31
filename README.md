@@ -13,13 +13,13 @@ You can download image of project:
 
 Or build it, with Dockerfile :
 
-    docker build -t mention-test-img .
+    docker build -t mention-test .
 
 ## Run server
 
 For run the server you need, replace YOUR_TOKEN_API_OF_MENTION by the AccessToken in mention
 
-    docker run -ti -p 80:9001 -e MENTION_TOKEN_ENV="YOUR_TOKEN_API_OF_MENTION" mention-test-img
+    docker run -ti -p 80:9001 -e MENTION_TOKEN_ENV="YOUR_TOKEN_API_OF_MENTION" st3w4r/mention-test
 
 ## Access to website
 
