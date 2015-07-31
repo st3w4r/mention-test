@@ -17,6 +17,8 @@ Or build it, with Dockerfile :
 
 ## Run server
 
+![Access Token Mention](https://raw.githubusercontent.com/st3w4r/mention-test/resources/Mention_Access_Token.png)
+
 For run the server you need, replace YOUR_TOKEN_API_OF_MENTION by the AccessToken in mention
 
     docker run -ti -p 80:9001 -e MENTION_TOKEN_ENV="YOUR_TOKEN_API_OF_MENTION" st3w4r/mention-test
